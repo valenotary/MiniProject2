@@ -1,4 +1,9 @@
 ﻿  App.cpp
-c:\users\tony\documents\opengl\mini project 2\glutapptemplate\app.cpp(53): error C2065: 'meh': undeclared identifier
+c:\users\valen\onedrive\documents\github\miniproject2\glutapptemplate\app.cpp(7): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\valen\onedrive\documents\github\miniproject2\glutapptemplate\app.cpp(9): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\valen\onedrive\documents\github\miniproject2\glutapptemplate\app.cpp(86): warning C4018: '<': signed/unsigned mismatch
+c:\users\valen\onedrive\documents\github\miniproject2\glutapptemplate\app.cpp(104): warning C4018: '<': signed/unsigned mismatch
+c:\users\valen\onedrive\documents\github\miniproject2\glutapptemplate\app.cpp(154): warning C4018: '<': signed/unsigned mismatch
   app_main.cpp
   Generating Code...
+  glutapp.vcxproj -> C:\Users\valen\OneDrive\Documents\GitHub\MiniProject2\GlutAppTemplate\visualc15\obj\glutapp_Debug\glutapp.exe

@@ -32,16 +32,20 @@ class Rect {
 	float width;
 	float height;
 
+	
+
+public: 
+
 	//color tracker 
 	float r;
 	float g;
 	float b;
 
-public: 
-
+	//declare the constructor/destructor
 	Rect(float xLC, float yLC, float width, float height);
 	~Rect();
 
+	//get-set methods
 	void setXLC(float xLC);
 	void setYLC(float yLC);
 	void setWidth(float width);
@@ -52,11 +56,10 @@ public:
 	float getWidth();
 	float getHeight();
 
-	void draw();
-	void keyPress(unsigned char key);
-	void mouseDown(float x, float y);
-	void mouseDrag(float x, float y);
+	//controls how the rectangle will be drawn, but doesnt actually draw the rectangle itself
+	void draw1();
 
+	//checks to see if the mouse pointer is inside the rectangle
 	bool contains(float x, float y);
 
 };
