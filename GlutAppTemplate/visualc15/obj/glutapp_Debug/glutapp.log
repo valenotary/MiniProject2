@@ -1,4 +1,4 @@
 ﻿  App.cpp
+c:\users\tony\documents\opengl\mini project 2\glutapptemplate\app.cpp(53): error C2065: 'meh': undeclared identifier
   app_main.cpp
   Generating Code...
-  glutapp.vcxproj -> C:\Users\Tony\Documents\OpenGL\Mini Project 2\GlutAppTemplate\visualc15\obj\glutapp_Debug\glutapp.exe

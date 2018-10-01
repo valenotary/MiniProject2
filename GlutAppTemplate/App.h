@@ -9,6 +9,7 @@ class App: public GlutApp {
     float my;
 public:
     // Constructor, to initialize state
+
     App(const char* label, int x, int y, int w, int h);
     
     // These are the events we want to handle
@@ -24,9 +25,17 @@ class Rect {
 	float xLC;
 	float yLC;
 
+	//mouse stuff
+	float mx, my;
+
 	// width and height
 	float width;
 	float height;
+
+	//color tracker 
+	float r;
+	float g;
+	float b;
 
 public: 
 
@@ -34,7 +43,7 @@ public:
 	~Rect();
 
 	void setXLC(float xLC);
-	void setyLC(float yLC);
+	void setYLC(float yLC);
 	void setWidth(float width);
 	void setHeight(float height);
 
@@ -42,6 +51,13 @@ public:
 	float getYLC();
 	float getWidth();
 	float getHeight();
+
+	void draw();
+	void keyPress(unsigned char key);
+	void mouseDown(float x, float y);
+	void mouseDrag(float x, float y);
+
+	bool contains(float x, float y);
 
 };
 
